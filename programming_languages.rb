@@ -4,9 +4,10 @@ def reformat_languages(languages)
         second.each do |language, type|
           type.each do |type_data, type_name|
           new_hash[language] = {type_data => type_name, :style => [style]  }
-        end
+        en
       end
     end
     new_hash[:javascript][:style] << :oo
     new_hash
   end
+d

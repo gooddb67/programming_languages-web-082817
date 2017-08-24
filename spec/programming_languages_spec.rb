@@ -4,7 +4,7 @@ describe '#reformat_languages' do
 
   let(:languages_by_style) {
     {
-      :oo => {
+      :oo => {asdf
         :ruby => {
           :type => "interpreted"
         },
